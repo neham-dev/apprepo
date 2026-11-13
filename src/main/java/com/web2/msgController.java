@@ -9,6 +9,6 @@ public class msgController {
 
     @GetMapping("/message")
     public String hello(){
-        return "Welcome to Docker.. and Welcome to Jenkins";
+        return "Welcome to Docker.. and Welcome to Jenkins along with Webhook";
     }
 }
