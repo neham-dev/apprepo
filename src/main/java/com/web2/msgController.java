@@ -11,4 +11,8 @@ public class msgController {
     public String hello(){
         return "Welcome to Docker.. and Welcome to Jenkins along with Webhook";
     }
+    @GetMapping("/eks")
+    public String cluster(){
+        return "Welcome to EKS Kubernates";
+    }
 }
